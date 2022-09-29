@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+  <master auto="start"/>
+
+  <node pkg="teleop_twist_keyboard"  name="teleop_twist_keyboard" type="teleop_twist_keyboard.py" output="screen">
+    <!--param name="~repeat_rate" value="10"/-->
+  </node>
+
+</launch>
